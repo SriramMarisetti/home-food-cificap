@@ -12,7 +12,7 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <Topbar1 />
+    
       <Header5 />
       <div className="tf-page-title ">
         <div className="container-full">
