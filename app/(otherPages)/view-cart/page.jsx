@@ -18,7 +18,6 @@ export default function page() {
           <div className="heading text-center">Shopping Cart</div>
         </div>
       </div>
-
       <Cart />
       <Testimonials />
       <RecentProducts />
