@@ -23,6 +23,9 @@ export default function Products() {
         >
           <span className="title">Choose your meal size</span>
         </div>
+        <h4 className="text-center text-md-start mb-2cd">
+                Andhra Pickles
+        </h4>
         <div
           className="grid-layout  wow fadeInUp"
           data-display={6}
@@ -30,6 +33,7 @@ export default function Products() {
           data-grid="grid-3"
         >
           {products52.map((product) => (
+            
             <div
               key={product.id}
               className="card-product text-center none-hover fl-item"

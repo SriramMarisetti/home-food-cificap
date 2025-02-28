@@ -1,6 +1,6 @@
 export const slides = [
   {
-    imgSrc: "/images/collections/cls-image-sweetmenu .jpeg",
+    imgSrc: "/images/collections/cls-image-sweetmenu.jpeg",
     alt: "Create your menu",
     title: "Create your menu",
     description:

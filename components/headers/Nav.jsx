@@ -74,16 +74,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
         </a>
 
       </li>
-      <li className="menu-item">
-        <a
-          href="#"
-          className={`item-link ${Linkfs} ${textColor} ${
-            isMenuActive(productsPages) ? "activeMenu" : ""
-          } `}
-        >
-          Shop
-        </a>
-      </li>
+
       <li className="menu-item">
         <a
           href="#"
@@ -92,35 +83,9 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
           } `}
         >
           Pickles
-          {isArrow ? <i className="icon icon-arrow-down" /> : ""}
+         
         </a>
-        <div className="sub-menu mega-menu">
-          <div className="container">
-            <div className="row">
-              {productsPages.map((menu, index) => (
-                <div className="col-lg-2" key={index}>
-                  <div className="mega-menu-item">
-                    <div className="menu-heading">{menu.heading}</div>
-                    <ul className="menu-list">
-                      {menu.links.map((link, linkIndex) => (
-                        <li key={linkIndex}>
-                          <Link
-                            href={link.href}
-                            className={`menu-link-text link ${
-                              isMenuActive(link) ? "activeMenu" : ""
-                            }`}
-                          >
-                            {link.text}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+
       </li>
       <li className="menu-item">
         <a
@@ -130,35 +95,9 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
           } `}
         >
           Podulu & Masalas
-          {isArrow ? <i className="icon icon-arrow-down" /> : ""}
+         
         </a>
-        <div className="sub-menu mega-menu">
-          <div className="container">
-            <div className="row">
-              {productsPages.map((menu, index) => (
-                <div className="col-lg-2" key={index}>
-                  <div className="mega-menu-item">
-                    <div className="menu-heading">{menu.heading}</div>
-                    <ul className="menu-list">
-                      {menu.links.map((link, linkIndex) => (
-                        <li key={linkIndex}>
-                          <Link
-                            href={link.href}
-                            className={`menu-link-text link ${
-                              isMenuActive(link) ? "activeMenu" : ""
-                            }`}
-                          >
-                            {link.text}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+
       </li>
       <li className="menu-item">
         <a
@@ -168,35 +107,9 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
           } `}
         >
           Traditional Sweets
-          {isArrow ? <i className="icon icon-arrow-down" /> : ""}
+
         </a>
-        <div className="sub-menu mega-menu">
-          <div className="container">
-            <div className="row">
-              {productsPages.map((menu, index) => (
-                <div className="col-lg-2" key={index}>
-                  <div className="mega-menu-item">
-                    <div className="menu-heading">{menu.heading}</div>
-                    <ul className="menu-list">
-                      {menu.links.map((link, linkIndex) => (
-                        <li key={linkIndex}>
-                          <Link
-                            href={link.href}
-                            className={`menu-link-text link ${
-                              isMenuActive(link) ? "activeMenu" : ""
-                            }`}
-                          >
-                            {link.text}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+
       </li>
       <li className="menu-item">
         <a

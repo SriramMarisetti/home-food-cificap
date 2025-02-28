@@ -21,7 +21,7 @@ export default function Features() {
         </div>
         <div className ="container2 mb-0">
         <div className="item">
-            <img src="pickles.jpg" alt="Pickles"/>
+            <img src="/images/collections/cls-food-pickles-features.jpeg" alt="Pickles"/>
             <p>Pickles</p>
         </div>
         <div className="item">
@@ -33,15 +33,15 @@ export default function Features() {
             <p>Traditional Sweets</p>
         </div>
         <div className="item">
-            <img src="masala.jpg" alt="Masalas & Podulu"/>
+            <img src="/images/collections/cls-food-podillu.jpeg" alt="Masalas & Podulu"/>
             <p>Masalas & Podulu</p>
         </div>
         <div className="item">
-            <img src="/images/collections/cls-food5.jpeg" alt="Vadiyalu & Fryums"/>
+            <img src="/images/collections/cls-food-vadiyalu.jpeg" alt="Vadiyalu & Fryums"/>
             <p>Vadiyalu & Fryums</p>
         </div>
         <div className="item">
-            <img src="/images/collections/cls-image-namkeen.jpeg" alt="Biscuits & Cookies"/>
+            <img src="/images/collections/cls-image-biscuite.jpeg" alt="Biscuits & Cookies"/>
             <p>Biscuits & Cookies</p>
         </div>
         </div>

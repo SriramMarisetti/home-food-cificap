@@ -39,6 +39,7 @@ export default function Process() {
                     alt={slide.alt}
                     width={476}
                     height={476}
+                    style={{borderRadius:'20px'}}
                   />
                 </div>
                 <div className="content bg_light-green-4">
