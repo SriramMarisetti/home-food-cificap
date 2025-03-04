@@ -5,11 +5,12 @@ import { useState } from "react";
 import Pagination from "../common/Pagination";
 import ShopFilter from "./ShopFilter";
 import Sorting from "./Sorting";
+import { bestseller } from "@/data/products";
 
 export default function ShopDefault() {
   const [gridItems, setGridItems] = useState(4);
-  const [products, setProducts] = useState([]);
-  const [finalSorted, setFinalSorted] = useState([]);
+  const [products, setProducts] = useState(bestseller);
+  const [finalSorted, setFinalSorted] = useState(bestseller);
   return (
     <>
       <section className="flat-spacing-2">
@@ -61,7 +62,7 @@ export default function ShopDefault() {
           </div>
         </div>
       </section>
-      <ShopFilter setProducts={setProducts} />
+      <ShopFilter setProducts={setProducts} products={bestseller}/>
     </>
   );
 }

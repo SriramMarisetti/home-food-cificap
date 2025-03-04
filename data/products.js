@@ -5623,6 +5623,37 @@ export const products51 = [
   },
 ];
 
+export const bestseller= [
+  {
+    id: 6,
+    imgSrc: "https://i0.wp.com/ahahomefoods.com/wp-content/uploads/2023/02/Karivepaku-Karam-podi.jpg?resize=300%2C300&ssl=1",
+    alt: "Karivepaku Karam podi / Curry Leaves Spice Powder",
+    title: "Karivepaku Karam podi / Curry Leaves Spice Powder",
+    price: 219,
+  },
+  {
+    id: 7,
+    imgSrc: "https://i0.wp.com/ahahomefoods.com/wp-content/uploads/2023/02/Pandu-Mirchi-Pachadi.jpg?resize=300%2C300&ssl=1",
+    alt: "Pandu Mirchi Pachadi / Red Chilli Pickle Andhra style",
+    title: "Pandu Mirchi Pachadi / Red Chilli Pickle Andhra style",
+    price: 239,
+  },
+  {
+    id: 8,
+    imgSrc: "https://i0.wp.com/ahahomefoods.com/wp-content/uploads/2023/02/sakinalu-salted.jpg?resize=300%2C300&ssl=1",
+    alt: "Sakinalu (Salted)",
+    title: "Sakinalu (Salted)",
+    price: 249,
+  },
+  {
+    id: 9,
+    imgSrc: "https://i0.wp.com/ahahomefoods.com/wp-content/uploads/2023/02/Plain-Chekkalu.jpg?resize=300%2C300&ssl=1",
+    alt: "Plain Chekkalu Andhra Style",
+    title: "Plain Chekkalu Andhra Style",
+    price: 249,
+  }
+]
+
 export const products52 = [
   {
     id: 1,

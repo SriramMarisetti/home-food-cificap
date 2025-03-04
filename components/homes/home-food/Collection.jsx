@@ -1,13 +1,18 @@
 import React from "react";
-import Pagination from "../common/Pagination";
 import { collectionItems3 } from "@/data/categories";
 import Image from "next/image";
 import Link from "next/link";
 export default function ShopCollections() {
   return (
     <section className="flat-spacing-1">
+        <div
+          className="flat-title text-center wow fadeInUp"
+          data-wow-delay="0s"
+        >
+          <span className="title">Collections</span>
+        </div>
       <div className="container">
-        <div className="tf-grid-layout lg-col-4 tf-col-3">
+        <div className="tf-grid-layout lg-col-3 tf-col-2">
           {collectionItems3.map((item, index) => (
             <div className="collection-item hover-img" key={index}>
               <div className="collection-inner">
@@ -37,10 +42,6 @@ export default function ShopCollections() {
             </div>
           ))}
         </div>
-        {/* pagination */}
-        <ul className="tf-pagination-wrap tf-pagination-list">
-          <Pagination />
-        </ul>
       </div>
     </section>
   );

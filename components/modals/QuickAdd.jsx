@@ -5,7 +5,7 @@ import Link from "next/link";
 import Quantity from "../shopDetails/Quantity";
 import { useContextElement } from "@/context/Context";
 
-import { allProducts } from "@/data/products";
+import { products52 } from "@/data/products";
 import { colors, sizeOptions } from "@/data/singleProductOptions";
 export default function QuickAdd() {
   const {
@@ -15,9 +15,9 @@ export default function QuickAdd() {
     addToCompareItem,
     isAddedtoCompareItem,
   } = useContextElement();
-  const [item, setItem] = useState(allProducts[0]);
+  const [item, setItem] = useState(products52[0]);
   useEffect(() => {
-    const filtered = allProducts.filter((el) => el.id == quickAddItem);
+    const filtered = products52.filter((el) => el.id == quickAddItem);
     if (filtered) {
       setItem(filtered[0]);
     }
@@ -51,64 +51,6 @@ export default function QuickAdd() {
                 <div className="tf-product-info-price">
                   <div className="price">${item.price.toFixed(2)}</div>
                 </div>
-              </div>
-            </div>
-            <div className="tf-product-info-variant-picker mb_15">
-              <div className="variant-picker-item">
-                <div className="variant-picker-label">
-                  Color:
-                  <span className="fw-6 variant-picker-label-value">
-                    {currentColor.value}
-                  </span>
-                </div>
-                <form className="variant-picker-values">
-                  {colors.map((color) => (
-                    <React.Fragment key={color.id}>
-                      <input
-                        type="radio"
-                        name="color1"
-                        readOnly
-                        checked={currentColor == color}
-                      />
-                      <label
-                        onClick={() => setCurrentColor(color)}
-                        className="hover-tooltip radius-60"
-                        data-value={color.value}
-                      >
-                        <span className={`btn-checkbox ${color.className}`} />
-                        <span className="tooltip">{color.value}</span>
-                      </label>
-                    </React.Fragment>
-                  ))}
-                </form>
-              </div>
-              <div className="variant-picker-item">
-                <div className="variant-picker-label">
-                  Size:{" "}
-                  <span className="fw-6 variant-picker-label-value">
-                    {" "}
-                    {currentSize.value}
-                  </span>
-                </div>
-                <form className="variant-picker-values">
-                  {sizeOptions.map((size) => (
-                    <React.Fragment key={size.id}>
-                      <input
-                        type="radio"
-                        name="size1"
-                        readOnly
-                        checked={currentSize == size}
-                      />
-                      <label
-                        onClick={() => setCurrentSize(size)}
-                        className="style-text"
-                        data-value={size.value}
-                      >
-                        <p>{size.value}</p>
-                      </label>
-                    </React.Fragment>
-                  ))}
-                </form>
               </div>
             </div>
             <div className="tf-product-info-quantity mb_15">

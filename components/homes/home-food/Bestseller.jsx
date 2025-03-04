@@ -1,6 +1,6 @@
 "use client";
 import { useContextElement } from "@/context/Context";
-import { products52 } from "@/data/products";
+import { bestseller } from "@/data/products";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -21,7 +21,7 @@ export default function Products() {
           className="flat-title text-center wow fadeInUp"
           data-wow-delay="0s"
         >
-          <span className="title">Choose your meal size</span>
+          <span className="title">Best Sellers</span>
         </div>
         <div
           className="grid-layout  wow fadeInUp"
@@ -29,7 +29,7 @@ export default function Products() {
           data-wow-delay="0s"
           data-grid="grid-4"
         >
-          {products52.slice(0,16).map((product) => (
+          {bestseller.map((product) => (
             
             <div
               key={product.id}
@@ -77,7 +77,6 @@ export default function Products() {
                     </span>{" "}
                     <span className="icon icon-delete" />
                   </a>
-
                 </div>
               </div>
               <div className="card-product-info">
@@ -106,9 +105,13 @@ export default function Products() {
           ))}
         </div>
         <div className="tf-pagination-wrap view-more-button text-center">
+            <Link 
+            href={`/best-seller`}
+            >
           <button className="tf-btn-loading tf-loading-default style-2 btn-loadmore">
             <span className="text">Load more</span>
           </button>
+          </Link>
         </div>
       </div>
     </section>

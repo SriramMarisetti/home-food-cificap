@@ -1296,32 +1296,32 @@ export const collectionItems3 = [
   {
     imgSrc: "/images/collections/collection-8.jpg",
     alt: "collection-img",
-    title: "Women",
+    title: "Sweets",
   },
   {
     imgSrc: "/images/collections/collection-9.jpg",
     alt: "collection-img",
-    title: "Women",
+    title: "Snacks",
   },
   {
     imgSrc: "/images/collections/collection-10.jpg",
     alt: "collection-img",
-    title: "Women",
+    title: "Podulu",
   },
   {
     imgSrc: "/images/collections/collection-11.jpg",
     alt: "collection-img",
-    title: "Women",
+    title: "Pickles",
   },
   {
     imgSrc: "/images/collections/collection-12.jpg",
     alt: "collection-img",
-    title: "Women",
+    title: "Instant Mixtures",
   },
   {
     imgSrc: "/images/collections/collection-13.jpg",
     alt: "collection-img",
-    title: "Women",
+    title: "Masalas",
   },
 ];
 
