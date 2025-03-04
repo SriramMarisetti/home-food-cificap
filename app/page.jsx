@@ -17,7 +17,6 @@ export default function page() {
       <Header5 />
       <Hero />
       <Features />
-      <Banner />
       <Products />
       <Testimonials />
       <Process />
