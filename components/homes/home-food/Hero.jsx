@@ -29,6 +29,7 @@ export default function Hero() {
                 src={slide.imgSrc}
                 width={2000}
                 height={838}
+                style={{filter:"brightness(50%)"}}
               />
               <div className="box-content">
                 <div className="container">
@@ -39,11 +40,11 @@ export default function Hero() {
                   <p className="fade-item fade-item-2 text-white">
                     {slide.text}
                   </p>
-                  <Link
+                  <Link style={{backgroundColor:"red"}}
                     href={`/shop-collection-list`} // Direct link in JSX
                     className="fade-item fade-item-3 tf-btn btn-light-icon animate-hover-btn btn-xl rounded-0"
                   >
-                    <span>Shop collection</span>
+                    <span style={{color:"white"}}>Shop Now</span>
                     <i className="icon icon-arrow-right" />
                   </Link>
                 </div>

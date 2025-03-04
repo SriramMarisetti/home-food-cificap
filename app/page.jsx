@@ -8,7 +8,9 @@ import Products from "@/components/homes/home-food/Products";
 import Testimonials from "@/components/homes/home-food/Testimonials";
 import Bestseller from "@/components/homes/home-food/Bestseller"
 import Collections from "@/components/homes/home-food/Collection"
+import Testimon from "@/components/common/Testimon"
 import React from "react";
+import Pickles from "@/components/common/Pickles";
 export const metadata = {
   title: "Home Food || Ecomus - Ultimate Nextjs Ecommerce Template",
   description: "Ecomus - Ultimate Nextjs Ecommerce Template",
@@ -21,6 +23,7 @@ export default function page() {
       <Bestseller />
       <Collections />
       <Products />
+      <Testimon />
       <Testimonials />
       <Process />
       <Footer1 />

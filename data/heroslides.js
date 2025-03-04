@@ -811,7 +811,7 @@ export const sliderData5 = [
   {
     imgSrc: "/images/slider/slider-food-1.jpeg",
     alt: "food-slideshow-1",
-    heading: "Healthy Plant-Based <br/> to your door",
+    heading: "Welcome to a world of <br>tradition and taste!",
     text: "Transform your meals with our delicious plant-based recipes",
   },
   {

@@ -40,13 +40,14 @@ export default function Header5({ isArrow, Linkfs = "", uppercase = false }) {
                 <Image
                   alt="logo"
                   className="logo"
-                  src="/images/logo/logo.svg"
+                  src="/images/logo/logo.jpg"
                   width={136}
                   height={21}
+                  style={{width:"80px",height:"80px"}}
                 />
               </Link>
               <nav className="box-navigation text-center">
-                <ul className="box-nav-ul d-flex align-items-center justify-content-center gap-30">
+                <ul className="box d-flex align-items-center justify-content-center gap-30">
                   <Nav isArrow={isArrow} Linkfs={Linkfs} />
                 </ul>
               </nav>

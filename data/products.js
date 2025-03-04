@@ -304,6 +304,51 @@ export const products1 = [
     isAvailable: true,
   },
 ];
+
+export const testimonials = [
+  {
+    heading: "Lorem Ipsum Dolor Sit",
+    text: "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae purus non mi suscipit accumsan. ”",
+    name: "Lorem Ipsum Dolor Sit",
+    metas: "Lorem Ipsum Dolor Sit",
+    imageSrc: "/images/sample/sample.jpg",
+    productTitle: "Lorem Ipsum Dolor Sit",
+    price: "Rs.105.95",
+    delay: "0s",
+  },
+  {
+    heading: "Lorem Ipsum Dolor Sit",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet elit non orci posuere, ac congue mi tincidunt.",
+    name: "Lorem Ipsum Dolor Sit",
+    metas: "Lorem Ipsum Dolor Sit",
+    imageSrc: "/images/sample/sample.jpg",
+    productTitle: "Lorem Ipsum Dolor Sit",
+    price: "Rs.7.95",
+    delay: ".1s",
+  },
+  {
+    heading: "Lorem Ipsum Dolor Sit",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at turpis vel lacus commodo pharetra id vel mauris.",
+    name: "Lorem Ipsum Dolor Sit",
+    metas: "Lorem Ipsum Dolor Sit",
+    imageSrc: "/images/sample/sample.jpg",
+    productTitle: "Lorem Ipsum Dolor Sit",
+    price: "From Rs.18.95",
+    delay: ".2s",
+  },
+  {
+    heading: "Lorem Ipsum Dolor Sit",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod justo nec risus dictum, id laoreet erat sagittis.",
+    name: "Lorem Ipsum Dolor Sit",
+    metas: "Lorem Ipsum Dolor Sit",
+    imageSrc: "/images/sample/sample.jpg",
+    productTitle: "Lorem Ipsum Dolor Sit",
+    price: "Rs.16.95",
+    delay: ".3s",
+  },
+];
+
+
 export const products2 = [
   {
     id: 13,
@@ -5789,6 +5834,80 @@ export const products52 = [
     price: 349,
   },
 ];
+
+export const pickles = [
+  {
+    id: 1001,
+    imgSrc: "https://ahahomefoods.com/wp-content/uploads/2023/02/Avakaya-Pickle.jpg",
+    alt: "Avakaya Pachadi / Mango Pickle Andhra style",
+    title: "Avakaya Pachadi / Mango Pickle Andhra style",
+    price: 239,
+  },
+  {
+    id: 1002,
+    imgSrc: "https://ahahomefoods.com/wp-content/uploads/2023/02/Allam-Pickle.jpg",
+    alt: "Allam Pachadi / Ginger Pickle Andhra style",
+    title: "Allam Pachadi / Ginger Pickle Andhra style",
+    price: 239,
+  },
+  {
+    id: 1003,
+    imgSrc: "https://ahahomefoods.com/wp-content/uploads/2023/02/Tomato-Pickle.jpg",
+    alt: "Tomato Pachadi / Tomato Pickle Andhra style",
+    title: "Tomato Pachadi / Tomato Pickle Andhra style",
+    price: 239,
+  },
+  {
+    id: 1004,
+    imgSrc: "https://ahahomefoods.com/wp-content/uploads/2023/02/Allam-Bellam-Thokku.jpg",
+    alt: "Allam Bellam Thokku / Ginger Pickle in Jaggery Sauce Andhra Style",
+    title: "Allam Bellam Thokku / Ginger Pickle in Jaggery Sauce Andhra Style",
+    price: 239,
+  },
+  {
+    id: 1005,
+    imgSrc: "https://ahahomefoods.com/wp-content/uploads/2023/02/Red-Chilli-Pickle.jpg",
+    alt: "Pandu Mirchi Pachadi / Red Chilli Pickle Andhra style",
+    title: "Pandu Mirchi Pachadi / Red Chilli Pickle Andhra style",
+    price: 239,
+  },
+  {
+    id: 1006,
+    imgSrc: "https://ahahomefoods.com/wp-content/uploads/2023/02/Curry-Leaves-Pickle.jpg",
+    alt: "Karivepaku Pachadi / Curry leaves Pickle Andhra style",
+    title: "Karivepaku Pachadi / Curry leaves Pickle Andhra style",
+    price: 239,
+  },
+  {
+    id: 1007,
+    imgSrc: "https://ahahomefoods.com/wp-content/uploads/2023/02/Lemon-Pickle.jpg",
+    alt: "Nimmakaya Pachadi / Lemon Pickle Andhra style",
+    title: "Nimmakaya Pachadi / Lemon Pickle Andhra style",
+    price: 239,
+  },
+  {
+    id: 1008,
+    imgSrc: "https://ahahomefoods.com/wp-content/uploads/2023/02/Tamarind-Pickle.jpg",
+    alt: "Chintakaya Pachadi / Tamarind Pickle Andhra style",
+    title: "Chintakaya Pachadi / Tamarind Pickle Andhra style",
+    price: 239,
+  },
+  {
+    id: 1009,
+    imgSrc: "https://ahahomefoods.com/wp-content/uploads/2023/02/Amla-Pickle.jpg",
+    alt: "Usirikaya Pachadi / Amla Pickle Andhra style",
+    title: "Usirikaya Pachadi / Amla Pickle Andhra style",
+    price: 239,
+  },
+  {
+    id: 1010,
+    imgSrc: "https://ahahomefoods.com/wp-content/uploads/2023/02/Mango-Jaggery-Pickle.jpg",
+    alt: "Bellam Avakaya Pachadi / Mango Pickle in Jaggery Syrup Andhra style",
+    title: "Bellam Avakaya Pachadi / Mango Pickle in Jaggery Syrup Andhra style",
+    price: 239,
+  },
+];
+
 
 export const products53 = [
   {
