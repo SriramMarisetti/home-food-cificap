@@ -21,7 +21,9 @@ export default function Products() {
           className="flat-title text-center wow fadeInUp"
           data-wow-delay="0s"
         >
-          <span className="title">Best Sellers</span>
+          <span className="title" style={{fontSize:"40px",color:"#A31D1D",fontWeight:"700"}}>Best Sellers</span>
+          <span className="text-gray-700 block" style={{fontSize:"20px"}}>"A Taste of Home, A Journey Through Tradition!"</span>
+
         </div>
         <div
           className="grid-layout  wow fadeInUp"
@@ -107,11 +109,13 @@ export default function Products() {
         <div className="tf-pagination-wrap view-more-button text-center">
             <Link 
             href={`/best-seller`}
+            style={{backgroundColor:"red"}}
             >
           <button className="tf-btn-loading tf-loading-default style-2 btn-loadmore">
             <span className="text">Load more</span>
           </button>
           </Link>
+          
         </div>
       </div>
     </section>

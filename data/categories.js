@@ -1294,32 +1294,65 @@ export const collectionSlides2 = [
 
 export const collectionItems3 = [
   {
-    imgSrc: "/images/collections/collection-8.jpg",
+    imgSrc: "https://i.pinimg.com/736x/00/3f/0f/003f0f0351967a7cb6212a8d9bfaf889.jpg",
     alt: "collection-img",
     title: "Sweets",
   },
   {
-    imgSrc: "/images/collections/collection-9.jpg",
+    imgSrc: "https://i.pinimg.com/736x/fe/26/d4/fe26d45457c82a5f3ecb7bd6d3d1cc72.jpg",
     alt: "collection-img",
     title: "Snacks",
   },
   {
-    imgSrc: "/images/collections/collection-10.jpg",
+    imgSrc: "/images/collections/image-collection-image-podi.jpeg",
     alt: "collection-img",
     title: "Podulu",
   },
   {
-    imgSrc: "/images/collections/collection-11.jpg",
+    imgSrc: "/images/collections/image-collection-image-pickle.jpeg",
     alt: "collection-img",
     title: "Pickles",
   },
   {
-    imgSrc: "/images/collections/collection-12.jpg",
+    imgSrc: "/images/collections/image-collection-image-instant-mixture.jpeg",
     alt: "collection-img",
     title: "Instant Mixtures",
   },
   {
-    imgSrc: "/images/collections/collection-13.jpg",
+    imgSrc: "/images/collections/image-collection-image-masala.jpeg",
+    alt: "collection-img",
+    title: "Masalas",
+  },
+];
+
+export const picklesProducts = [
+  {
+    imgSrc: "https://i.pinimg.com/736x/00/3f/0f/003f0f0351967a7cb6212a8d9bfaf889.jpg",
+    alt: "collection-img",
+    title: "Sweets",
+  },
+  {
+    imgSrc: "https://i.pinimg.com/736x/fe/26/d4/fe26d45457c82a5f3ecb7bd6d3d1cc72.jpg",
+    alt: "collection-img",
+    title: "Snacks",
+  },
+  {
+    imgSrc: "/images/collections/image-collection-image-podi.jpeg",
+    alt: "collection-img",
+    title: "Podulu",
+  },
+  {
+    imgSrc: "/images/collections/image-collection-image-pickle.jpeg",
+    alt: "collection-img",
+    title: "Pickles",
+  },
+  {
+    imgSrc: "/images/collections/image-collection-image-instant-mixture.jpeg",
+    alt: "collection-img",
+    title: "Instant Mixtures",
+  },
+  {
+    imgSrc: "/images/collections/image-collection-image-masala.jpeg",
     alt: "collection-img",
     title: "Masalas",
   },

@@ -21,7 +21,7 @@ export default function Products() {
           className="flat-title text-center wow fadeInUp"
           data-wow-delay="0s"
         >
-          <span className="title">Choose your meal size</span>
+          <span className="title" style={{fontSize:"40px",color:"#A31D1D",fontWeight:"700"}}>Choose your meal size</span>
         </div>
         <div
           className="grid-layout  wow fadeInUp"

@@ -89,55 +89,6 @@ export default function NewsletterModal() {
               data-bs-dismiss="modal"
             />
           </div>
-          <div className="modal-bottom">
-            <h4 className="text-center">Don’t miss out</h4>
-            <h6 className="text-center">
-              Be the first one to get the new product at early bird prices.
-            </h6>
-            <div className={`tfSubscribeMsg ${showMessage ? "active" : ""}`}>
-              {success ? (
-                <p style={{ color: "rgb(52, 168, 83)" }}>
-                  You have successfully subscribed.
-                </p>
-              ) : (
-                <p style={{ color: "red" }}>Something went wrong</p>
-              )}
-            </div>
-            <form
-              ref={formRef}
-              onSubmit={sendEmail}
-              className="form-newsletter"
-              method="post"
-              acceptCharset="utf-8"
-              data-mailchimp="true"
-            >
-              <div id="subscribe-content">
-                <input
-                  required
-                  type="email"
-                  name="email"
-                  placeholder="Email *"
-                  autoComplete="abc@xyz.com"
-                />
-                <button
-                  type="submit"
-                  className="tf-btn btn-fill radius-3 animate-hover-btn w-100 justify-content-center"
-                >
-                  Keep me updated
-                </button>
-              </div>
-              <div id="subscribe-msg" />
-            </form>
-            <div className="text-center">
-              <a
-                href="#"
-                data-bs-dismiss="modal"
-                className="tf-btn btn-line fw-6 btn-hide-popup"
-              >
-                Not interested
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>

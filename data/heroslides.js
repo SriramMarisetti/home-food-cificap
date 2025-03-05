@@ -1,3 +1,5 @@
+import { styleFitContainer } from "react-compare-slider";
+
 export const slides = [
   {
     imgSrc: "/images/slider/fashion-slideshow-01.jpg",
@@ -809,22 +811,22 @@ export const slides20 = [
 
 export const sliderData5 = [
   {
-    imgSrc: "/images/slider/slider-food-1.jpeg",
+    imgSrc: "/images/slider/slider-hero-food-1.jpg",
     alt: "food-slideshow-1",
-    heading: "Welcome to a world of <br>tradition and taste!",
-    text: "Transform your meals with our delicious plant-based recipes",
+    heading: "Welcome! <br>To a world of tradition and taste!",
+    text: "Transform your meals with our delicious recipes",
   },
   {
     imgSrc: "/images/slider/slider-food-2.jpeg",
     alt: "food-slideshow-2",
-    heading: "Vegan Meals Delivered <br/> to Your Door",
-    text: "Upgrade Your Meals with Our Delicious Plant-Based Creations",
+    heading: "Pure,<br> Homemade Goodness in Every Bite",
+    text: "Every bite is a journey back to grandma’s kitchen, where flavors tell stories",
   },
   {
-    imgSrc: "/images/slider/slider-food-3.jpeg",
+    imgSrc: "/images/slider/image-slides-banner.jpeg",
     alt: "food-slideshow-3",
-    heading: "Multi-faceted Beauty",
-    text: "From casual to formal, we've got you covered",
+    heading: "Savor the Taste of Home",
+    text: "From our kitchen to your heart, savor the taste of authentic, home-style cooking",
   },
 ];
 

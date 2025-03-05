@@ -3,7 +3,6 @@ import Header5 from "@/components/headers/Header5";
 import Banner from "@/components/homes/home-food/Banner";
 import Features from "@/components/homes/home-food/Features";
 import Hero from "@/components/homes/home-food/Hero";
-import Process from "@/components/homes/home-food/Process";
 import Products from "@/components/homes/home-food/Products";
 import Testimonials from "@/components/homes/home-food/Testimonials";
 import Bestseller from "@/components/homes/home-food/Bestseller"
@@ -11,6 +10,8 @@ import Collections from "@/components/homes/home-food/Collection"
 import Testimon from "@/components/common/Testimon"
 import React from "react";
 import Pickles from "@/components/common/Pickles";
+import Header2 from "@/components/headers/Header2";
+import VideoSwiper from "@/components/homes/home-food/VideoSwiper";
 export const metadata = {
   title: "Home Food || Ecomus - Ultimate Nextjs Ecommerce Template",
   description: "Ecomus - Ultimate Nextjs Ecommerce Template",
@@ -18,14 +19,13 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <Header5 />
+      <Header2 />
       <Hero />
       <Bestseller />
       <Collections />
       <Products />
       <Testimon />
-      <Testimonials />
-      <Process />
+      <VideoSwiper />
       <Footer1 />
     </>
   );

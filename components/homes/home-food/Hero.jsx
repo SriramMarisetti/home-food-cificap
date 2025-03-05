@@ -36,11 +36,14 @@ export default function Hero() {
                   <h1
                     className="fade-item fade-item-1 text-white heading"
                     dangerouslySetInnerHTML={{ __html: slide.heading }}
+                    style={{fontSize:"60px"}}
                   ></h1>
                   <p className="fade-item fade-item-2 text-white">
                     {slide.text}
                   </p>
-                  <Link style={{backgroundColor:"red"}}
+
+              
+                  <Link style={{backgroundColor:"red",borderRadius:"10px !important"}}
                     href={`/shop-collection-list`} // Direct link in JSX
                     className="fade-item fade-item-3 tf-btn btn-light-icon animate-hover-btn btn-xl rounded-0"
                   >
