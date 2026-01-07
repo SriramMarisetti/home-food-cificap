@@ -40,7 +40,7 @@ export default function Header5({ isArrow, Linkfs = "", uppercase = false }) {
                 <Image
                   alt="logo"
                   className="logo"
-                  src="/images/logo/logo.jpg"
+                  src="/images/logo/dayaram_logo.png"
                   width={136}
                   height={21}
                   style={{width:"80px",height:"80px"}}
