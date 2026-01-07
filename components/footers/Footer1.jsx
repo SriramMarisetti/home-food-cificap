@@ -78,7 +78,7 @@ export default function Footer1({ bgColor = "" }) {
                     <Link href={`/`}>
                       <Image
                         alt="image"
-                        src="/images/logo/logo.jpg"
+                        src="/images/logo/dayaram_logo.png"
                         width="80"
                         height="80"
                         style={{ width: "80px", height: "80px" }}
@@ -88,19 +88,19 @@ export default function Footer1({ bgColor = "" }) {
                   <ul>
                     <li>
                       <p>
-                        Sri Gruhalaxmi Home Foods
-                        Address: 1234 Fashion Street, Suite 567, <br />
-                        Siripuram Junction, EastGodavari District
+                        DAYARAM Foods
+                        Address: Dayaram Plaza,Manufacturing Unit 1st floor<br />
+                        MAddilapalem,Visakhapatnam
                       </p>
                     </li>
                     <li>
                       <p>
-                        Email: <a href="#">info@fashionshop.com</a>
+                        Email: <a href="#">dayaramsweets@gmail.com</a>
                       </p>
                     </li>
                     <li>
                       <p>
-                        Phone: <a href="#">(212) 555-1234</a>
+                        Phone: <a href="#">7997703555</a>
                       </p>
                     </li>
                   </ul>
@@ -140,9 +140,9 @@ export default function Footer1({ bgColor = "" }) {
               </div>
               <div className="col-xl-3 col-md-6 col-12">
                 <div className="certificate-card">
-                  <h6>Our Certification</h6>
+                  <h6>Our Esteemed Clients</h6>
                   <Image
-                    src="/images/logo/certificate-logo.jpg"
+                    src="/images/dayaramimages/esteemedclients.png"
                     width="200"
                     height="250"
                     alt="Certificate"

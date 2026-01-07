@@ -1294,34 +1294,34 @@ export const collectionSlides2 = [
 
 export const collectionItems3 = [
   {
-    imgSrc: "https://i.pinimg.com/736x/00/3f/0f/003f0f0351967a7cb6212a8d9bfaf889.jpg",
+    imgSrc: "/images/dayaramimages/andhracollections.png",
     alt: "collection-img",
-    title: "Sweets",
+    title: "Andhra Collections",
   },
   {
-    imgSrc: "https://i.pinimg.com/736x/fe/26/d4/fe26d45457c82a5f3ecb7bd6d3d1cc72.jpg",
+    imgSrc: "/images/dayaramimages/divinegheecollections.png",
     alt: "collection-img",
-    title: "Snacks",
+    title: "Ghee Collections",
   },
   {
-    imgSrc: "/images/collections/image-collection-image-podi.jpeg",
+    imgSrc: "/images/dayaramimages/dryfruitdelight.png",
     alt: "collection-img",
-    title: "Podulu",
+    title: "Dry Fruits",
   },
   {
-    imgSrc: "/images/collections/image-collection-image-pickle.jpeg",
+    imgSrc: "/images/dayaramimages/nethiamrutham.png",
     alt: "collection-img",
-    title: "Pickles",
+    title: "Nethi Amrutham",
   },
   {
-    imgSrc: "/images/collections/image-collection-image-instant-mixture.jpeg",
+    imgSrc: "/images/dayaramimages/dryfruitfusion.png",
     alt: "collection-img",
-    title: "Instant Mixtures",
+    title: "  Dry Fruit Fusion",
   },
   {
-    imgSrc: "/images/collections/image-collection-image-masala.jpeg",
+    imgSrc: "/images/dayaramimages/andhravisakhamithai.png",
     alt: "collection-img",
-    title: "Masalas",
+    title: "Andhra Visakha Mithai",
   },
 ];
 

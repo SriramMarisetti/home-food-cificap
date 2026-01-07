@@ -20,10 +20,9 @@ export default function ProductSections() {
 
   // Filter products based on categories
 
-
-  return (
-    <>
-      {/* Podulu Swiper */}
+ return (
+  <>
+    {/*
       <ProductSwiper
         title="Podulu"
         para="Taste the essence of tradition with our handcrafted podulu"
@@ -34,10 +33,9 @@ export default function ProductSections() {
         paginationEl=".spb-podulu"
       />
 
-      {/* Pickles Swiper */}
       <ProductSwiper
         title="Pickles"
-         para="Experience the burst of bold flavors with our homemade pickles"
+        para="Experience the burst of bold flavors with our homemade pickles"
         products={pickles}
         swiperClass="pickles-swiper"
         prevBtn=".snbp-pickles"
@@ -45,18 +43,19 @@ export default function ProductSections() {
         paginationEl=".spb-pickles"
       />
 
-      {/* Sweets Swiper */}
       <ProductSwiper
         title="Sweets"
-         para="Delight in our authentic sweets, crafted with premium ingredients"
+        para="Delight in our authentic sweets, crafted with premium ingredients"
         products={sweets}
         swiperClass="sweets-swiper"
         prevBtn=".snbp-sweets"
         nextBtn=".snbn-sweets"
         paginationEl=".spb-sweets"
       />
-    </>
-  );
+    */}
+  </>
+);
+
 }
 
 // Reusable Swiper Component
