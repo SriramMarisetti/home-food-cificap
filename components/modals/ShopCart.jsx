@@ -60,7 +60,7 @@ export default function ShopCart() {
                 </span>
               </div>
               <div className="tf-progress-msg">
-                Buy <span className="price fw-6">$75.00</span> more to enjoy
+                Buy <span className="price fw-6">Rs75.00</span> more to enjoy
                 <span className="fw-6">Free Shipping</span>
               </div>
             </div>
@@ -90,7 +90,7 @@ export default function ShopCart() {
                           </Link>
                           <div className="meta-variant">Light gray</div>
                           <div className="price fw-6">
-                            ${elm.price?.toFixed(2)}
+                            RS.{elm.price?.toFixed(2)}
                           </div>
                           <div className="tf-mini-cart-btns">
                             <div className="wg-quantity small">
@@ -189,7 +189,7 @@ export default function ShopCart() {
                                 {elm.title}
                               </Link>
                               <div className="price">
-                                ${elm.price.toFixed(2)}
+                                RS.{elm.price.toFixed(2)}
                               </div>
                             </div>
                             <div className="tf-minicart-recommendations-item-quickview">
@@ -267,7 +267,7 @@ export default function ShopCart() {
                   <div className="tf-cart-totals-discounts">
                     <div className="tf-cart-total">Subtotal</div>
                     <div className="tf-totals-total-value fw-6">
-                      ${totalPrice.toFixed(2)} USD
+                      Rs.{totalPrice.toFixed(2)} USD
                     </div>
                   </div>
                   <div className="tf-cart-tax">
@@ -383,7 +383,7 @@ export default function ShopCart() {
                       <div className="tf-gift-wrap-infos">
                         <p>Do you want a gift wrap?</p>
                         Only
-                        <span className="price fw-6">$5.00</span>
+                        <span className="price fw-6">RS 5.00</span>
                       </div>
                     </div>
                     <div className="tf-cart-tool-btns">

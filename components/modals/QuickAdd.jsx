@@ -49,7 +49,7 @@ export default function QuickAdd() {
               <div className="content">
                 <Link href={`/product-detail/${item.id}`}>{item.title}</Link>
                 <div className="tf-product-info-price">
-                  <div className="price">${item.price.toFixed(2)}</div>
+                  <div className="price">RS.{item.price.toFixed(2)}</div>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ export default function QuickAdd() {
                       ? "Already Added - "
                       : "Add to cart - "}
                   </span>
-                  <span className="tf-qty-price">${item.price.toFixed(2)}</span>
+                  <span className="tf-qty-price">RS.{item.price.toFixed(2)}</span>
                 </a>
                 <div className="tf-product-btn-wishlist btn-icon-action">
                   <i className="icon-heart" />
